@@ -26,7 +26,7 @@ class TarefaController{
 
     public function index(){
         $tarefas = $this->tarefaModel->listar();
-        include __DIR__ . '/../views/index.php';
+        include __DIR__ . '/../views/listar.php';
     }
 }
 
